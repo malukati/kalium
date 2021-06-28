@@ -1,0 +1,171 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  
+  background-color: #2FD196;
+  background-image: url(../img/fundinho.png);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: top;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  
+  font-family: montserrat;
+}
+.cover-container {
+  max-width: 80em;
+  font-size: 
+
+}
+.container {
+  padding-top:3em;
+  font-family: 'montserrat';
+  font-size: 64px;
+  color: #444;
+}
+
+.primeiro {
+  font-family: 'montserrat';
+  font-size: 64px;
+  color: #444;
+  text-align: right;
+}
+.primeiro-depois{
+  font-family: 'montserrat';
+  font-size: 18px;
+  color: #444;
+  text-align: right;
+}
+.segundo {
+  font-family: 'montserrat';
+  font-size: 64px;
+  color: #444;
+  text-align: left;
+}
+.segundo-depois{
+  font-family: 'montserrat';
+  font-size: 18px;
+  color: #444;
+  text-align: left;
+}
+.lead-fim {
+  color:#fff;
+ text-align: center;
+ font-size: 18px;
+ font-family: 'montserrat';
+}
+.introdução{
+  margin: 3em;
+  font-size: 18px;
+}
+
+.cover-heading {
+  font-family: 'Oregano';
+  font-size: 96px;
+}
+.nav{
+  color: #000;
+}
+
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+}
+.logo{
+  width: 84px;
+  float: left;
+}
+.masthead-brand {
+  margin-bottom: 0;
+}
+.inner{
+  font-size: 18px;
+}
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: #444;
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+/* sobre */
+
+
+.card-body{
+  font-size: 24px;
+  color: #444;
+}
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+}
